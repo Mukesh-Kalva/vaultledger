@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx watch src/index.ts",
+    "start": "npx tsx src/index.ts",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.8",
+    "@prisma/client": "^5.22.0",
+    "better-auth": "^1.4.10",
+    "dotenv": "^17.2.3",
+    "hono": "^4.11.3",
+    "prisma": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6"
+  }
+}
